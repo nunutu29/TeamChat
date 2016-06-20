@@ -1,0 +1,53 @@
+<resources>
+    <string name="unknown">Sconosciuto</string>
+    <string name="app_name">Team Chat</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Registrazione</string>
+    <string name="hint_name">Nickname</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_repeat_password">Ripetere la password</string>
+    <string name="hint_full_name">Nome intero</string>
+    <string name="err_msg_generic">Campo obbligatorio.</string>
+    <string name="err_msg_name">Inserire un nickname valido</string>
+    <string name="err_msg_email">Inserire una mail valida</string>
+    <string name="title_activity_chat_room_discussion">Chat Room</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_create">Crea Pagina</string>
+    <string name="action_sync">Sincronizza</string>
+    <string name="title_activity_chat_list">Chat List</string>
+    <string name="alert_logout">Premi OK per uscire</string>
+    <string name="txtTitlo">Titolo</string>
+    <string name="txtPass">Password</string>
+    <string name="txtDescr">Descrizione</string>
+    <string name="txtID">Codice della Pagina</string>
+    <string name="btnOK">OK</string>
+    <string name="btnCancel">Anulla</string>
+    <string name="txtInsertTitle">Inserire un titolo</string>
+    <string name="txtWriteAMessage">Scrivere un messaggio</string>
+    <string name="btnSend">Invia</string>
+    <string name="hint_no_internet">Internet Assente</string>
+    <!-- Drawer -->
+    <string name="users_list">Membri</string>
+    <string name="new_chat_room">Nuova Chat</string>
+    <string name="new_chat_room_pub">Nuova Chat Pubblica</string>
+    <string name="new_chat_room_priv">Nuova Chat Privata</string>
+    <string name="drawer_leave_group">Abbandona</string>
+    <string name="drawer_delete_group">Elimina</string>
+    <string name="drawer_group_credentials">Credenziali del gruppo</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_pages">Lista Pagine</string>
+
+    <string name="openDrawer">Apri</string>
+    <string name="closeDrawer">Chiudi</string>
+    <string name="title_activity_users_list">UsersListActivity</string>
+    <string name="accepted_digits">0123456789 qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBNM_</string>
+
+    <!-- PopUp Menu-->
+    <string name="popup_delete_hisory">Cancella cronologia</string>
+    <string name="popup_leave_chat">Abbandona</string>
+    <string name="popup_admin_edit_chat">Modifica</string>
+    <string name="popup_admin_delete_chat">Elimina</string>
+    <string name="popup_silent_chat">Silenzia</string>
+    <string name="popup_loud_chat">Suona</string>
+</resources>

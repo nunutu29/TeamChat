@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/other_actions">
+            <item android:id="@+id/drawer_users_list" android:title="@string/users_list"/>
+            <item android:id="@+id/drawer_pages" android:title="@string/action_pages" />
+    </group>
+    <group>
+        <item android:id="@+id/drawer_leave_group" android:title="@string/drawer_leave_group"/>
+        <item android:id="@+id/drawer_delete_group" android:title="@string/drawer_delete_group"/>
+        <item android:id="@+id/drawer_group_credentials" android:title="@string/drawer_group_credentials"/>
+    </group>
+</menu>

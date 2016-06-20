@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f9381</color>
+    <color name="colorPrimaryDark">#2f7c6c</color>
+    <color name="colorAccent">#6cb1a3</color>
+    <color name="colorBackground">#eaeaea</color>
+    <color name="list_divider">#dedede</color>
+    <color name="bg_bubble_self">#80cbc4</color>
+    <color name="hint_color">#0e604f</color>
+    <color name="red">#c90209</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#737373</color>
+    <color name="state_selected">#c7c7c7</color>
+    <color name="state_click">#d9d9d9</color>
+</resources>

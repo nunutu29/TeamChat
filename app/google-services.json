@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_id": "gamemess29",
+    "project_number": "833157131594",
+    "name": "TeamChat"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833157131594:android:a109c5e634442f63",
+        "client_id": "android:com.gamemess.gamemess",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.gamemess.gamemess",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833157131594:android:45a0091f09d135e8",
+        "client_id": "android:org.teamchat",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "org.teamchat",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833157131594:android:de8acfd72f267b13",
+        "client_id": "android:org.teamchat.GCM",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "org.teamchat.GCM",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
