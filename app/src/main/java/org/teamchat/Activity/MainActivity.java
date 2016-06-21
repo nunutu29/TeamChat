@@ -40,6 +40,7 @@ import org.teamchat.Helper.DbIntentService;
 import org.teamchat.Model.Message;
 
 /**
+ * Commit Test
  * Attenzione pulire idpage che non serve da per tutto
  * */
 public class MainActivity extends AppCompatActivity
