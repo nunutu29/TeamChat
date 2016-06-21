@@ -130,6 +130,7 @@ public class MyPreferenceManager {
         }
 
     }
+
     public boolean MoreThanOne(){
         return pref.getBoolean("MoreThanOne", false);
     }

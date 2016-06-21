@@ -28,9 +28,11 @@ public class MyApplication extends Application {
         mInstance = this;
     }
 
+    //In realta si riferisce al fragment
     public void setCurrentActivity(String id){
         this.CurrentActivity = id;
     }
+
     public String getCurrentActivity(){
         return this.CurrentActivity;
     }

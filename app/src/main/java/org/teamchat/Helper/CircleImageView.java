@@ -47,8 +47,7 @@ public class CircleImageView extends ImageView {
         }
 
         Bitmap b;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP
-                && drawable instanceof VectorDrawable) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && drawable instanceof VectorDrawable) {
             drawable.draw(canvas);
             b = Bitmap.createBitmap(canvas.getWidth(), canvas.getHeight(), Bitmap.Config.ARGB_8888);
             Canvas c = new Canvas();
