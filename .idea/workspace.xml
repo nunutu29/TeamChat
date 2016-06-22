@@ -15,13 +15,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/NotificationUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/NotificationUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/MyPreferenceManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/MyPreferenceManager.java" />
     </list>
     <ignored path="TeamChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,80 +41,17 @@
     <favorites_list name="TeamChat" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/DbHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/DbManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#DbManager#0" expanded="false" />
-                <element signature="method#DbManager#0;class#DbManager#0" expanded="false" />
-                <element signature="method#execInsert#0;class#DbManager#0" expanded="false" />
-                <element signature="method#deletePage#0;class#DbManager#0" expanded="false" />
-                <element signature="e#1229#1243#0" expanded="false" />
-                <element signature="method#getPage#0;class#DbManager#0" expanded="false" />
-                <element signature="method#addPage#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getPagesList#0;class#DbManager#0" expanded="false" />
-                <element signature="method#addUser#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getUser#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getUsersList#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getUsersList#1;class#DbManager#0" expanded="false" />
-                <element signature="method#getUsersList#2;class#DbManager#0" expanded="false" />
-                <element signature="method#removeUserFromPage#0;class#DbManager#0" expanded="false" />
-                <element signature="method#addUserToPage#0;class#DbManager#0" expanded="false" />
-                <element signature="method#addUserToChat#0;class#DbManager#0" expanded="false" />
-                <element signature="method#removeUserFromChat#0;class#DbManager#0" expanded="false" />
-                <element signature="method#deleteChatRoom#0;class#DbManager#0" expanded="false" />
-                <element signature="method#addChatRooms#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getChatRoom#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getChatRooms#0;class#DbManager#0" expanded="false" />
-                <element signature="e#11939#11960#0" expanded="false" />
-                <element signature="e#12932#12979#0" expanded="false" />
-                <element signature="method#getLastMessage#0;class#DbManager#0" expanded="false" />
-                <element signature="method#deleteMessages#0;class#DbManager#0" expanded="false" />
-                <element signature="method#deleteMessages#1;class#DbManager#0" expanded="false" />
-                <element signature="method#addMessage#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getMessages#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getRoleList#0;class#DbManager#0" expanded="false" />
-                <element signature="method#getRole#0;class#DbManager#0" expanded="false" />
-                <element signature="method#setValues#0;class#DbManager#0" expanded="false" />
-                <element signature="method#Refresh#0;class#DbManager#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="NotificationUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/NotificationUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+              <caret line="145" column="198" selection-start-line="145" selection-start-column="198" selection-end-line="145" selection-end-column="198" />
               <folding>
                 <element signature="docComment;class#NotificationUtils#0" expanded="false" />
                 <element signature="method#NotificationUtils#0;class#NotificationUtils#0" expanded="false" />
                 <element signature="method#showNotificationMessage#0;class#NotificationUtils#0" expanded="false" />
-                <element signature="method#showNotificationMessage#1;class#NotificationUtils#0" expanded="false" />
+                <element signature="method#showSmallNotification#0;class#NotificationUtils#0" expanded="false" />
                 <element signature="method#showBigNotification#0;class#NotificationUtils#0" expanded="false" />
                 <element signature="docComment;method#getBitmapFromURL#0;class#NotificationUtils#0" expanded="false" />
                 <element signature="method#getBitmapFromURL#0;class#NotificationUtils#0" expanded="false" />
@@ -128,44 +65,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/MyApplication.java">
+      <file leaf-file-name="MyPreferenceManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/MyPreferenceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.2849315">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
-                <element signature="method#onCreate#0;class#MyApplication#0" expanded="false" />
-                <element signature="method#getRequestQueue#0;class#MyApplication#0" expanded="false" />
-                <element signature="method#getPrefManager#0;class#MyApplication#0" expanded="false" />
-                <element signature="method#getDbManager#0;class#MyApplication#0" expanded="false" />
-                <element signature="method#addToRequestQueue#0;class#MyApplication#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EndPoints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfiniteScroll.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/InfiniteScroll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9315069">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-              <folding>
-                <element signature="docComment;class#InfiniteScroll#0" expanded="false" />
-                <element signature="method#InfiniteScroll#0;class#InfiniteScroll#0" expanded="false" />
-                <element signature="method#onScrolled#0;class#InfiniteScroll#0" expanded="false" />
-                <element signature="e#1115#1204#0" expanded="false" />
-                <element signature="e#1476#1555#0" expanded="false" />
-                <element signature="e#1810#1900#0" expanded="false" />
+                <element signature="docComment;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="e#1302#1317#0" expanded="false" />
+                <element signature="method#storeUser#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#storeGCM#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#getGCM#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#getUser#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="e#2365#2381#0" expanded="false" />
+                <element signature="method#deleteUnreadCounter#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#storeUnReadCounter#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#getUnReadCounter#1;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#setMoreThanOneChat#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#clearNotifications#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="e#5300#5321#0" expanded="false" />
+                <element signature="method#storeSilentRoom#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#removeSilentRoom#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#checkSilentRoom#0;class#MyPreferenceManager#0" expanded="false" />
+                <element signature="method#clear#0;class#MyPreferenceManager#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2160,10 +2082,11 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/Activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/CircleImageView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/MyPreferenceManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/MyGcmPushReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/App/MyApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/MyPreferenceManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/NotificationUtils.java" />
       </list>
     </option>
   </component>
@@ -2217,10 +2140,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2311,40 +2233,20 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamChat" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teamchat" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="Nexus_5_API_23" />
+    <property name="last.edited.regexp" value="Sample Text" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2632,7 +2534,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466520369465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modifiche Varie">
+      <created>1466521405126</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1466521405126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2641,16 +2549,14 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.49694657" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5030534" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2665,6 +2571,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2688,20 +2596,137 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="12" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="oldNotifications.toString()" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2744#2745#0" expanded="false" />
+            <element signature="e#2778#2779#0" expanded="false" />
+            <element signature="e#3544#3545#0" expanded="false" />
+            <element signature="e#3597#3598#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/DbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#DbManager#0" expanded="false" />
+            <element signature="method#DbManager#0;class#DbManager#0" expanded="false" />
+            <element signature="method#execInsert#0;class#DbManager#0" expanded="false" />
+            <element signature="method#deletePage#0;class#DbManager#0" expanded="false" />
+            <element signature="e#1229#1243#0" expanded="false" />
+            <element signature="method#getPage#0;class#DbManager#0" expanded="false" />
+            <element signature="method#addPage#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getPagesList#0;class#DbManager#0" expanded="false" />
+            <element signature="method#addUser#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getUser#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getUsersList#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getUsersList#1;class#DbManager#0" expanded="false" />
+            <element signature="method#getUsersList#2;class#DbManager#0" expanded="false" />
+            <element signature="method#removeUserFromPage#0;class#DbManager#0" expanded="false" />
+            <element signature="method#addUserToPage#0;class#DbManager#0" expanded="false" />
+            <element signature="method#addUserToChat#0;class#DbManager#0" expanded="false" />
+            <element signature="method#removeUserFromChat#0;class#DbManager#0" expanded="false" />
+            <element signature="method#deleteChatRoom#0;class#DbManager#0" expanded="false" />
+            <element signature="method#addChatRooms#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getChatRoom#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getChatRooms#0;class#DbManager#0" expanded="false" />
+            <element signature="e#11939#11960#0" expanded="false" />
+            <element signature="e#12932#12979#0" expanded="false" />
+            <element signature="method#getLastMessage#0;class#DbManager#0" expanded="false" />
+            <element signature="method#deleteMessages#0;class#DbManager#0" expanded="false" />
+            <element signature="method#deleteMessages#1;class#DbManager#0" expanded="false" />
+            <element signature="method#addMessage#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getMessages#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getRoleList#0;class#DbManager#0" expanded="false" />
+            <element signature="method#getRole#0;class#DbManager#0" expanded="false" />
+            <element signature="method#setValues#0;class#DbManager#0" expanded="false" />
+            <element signature="method#Refresh#0;class#DbManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/NotificationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+          <folding>
+            <element signature="docComment;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#NotificationUtils#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#showNotificationMessage#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#showSmallNotification#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#showBigNotification#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="docComment;method#getBitmapFromURL#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#getBitmapFromURL#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#playNotificationSound#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="docComment;method#isAppIsInBackground#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#isAppIsInBackground#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#clearNotifications#0;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#getTimeMilliSec#0;class#NotificationUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="method#onCreate#0;class#MyApplication#0" expanded="false" />
+            <element signature="method#getRequestQueue#0;class#MyApplication#0" expanded="false" />
+            <element signature="method#getDbManager#0;class#MyApplication#0" expanded="false" />
+            <element signature="method#addToRequestQueue#0;class#MyApplication#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/InfiniteScroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#InfiniteScroll#0" expanded="false" />
+            <element signature="e#1115#1204#0" expanded="false" />
+            <element signature="e#1476#1555#0" expanded="false" />
+            <element signature="e#1810#1900#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/PopUp/MyPopUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48207885">
           <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-          <folding>
-            <element signature="method#setOnItemClickListener#0;class#MyPopUp#0" expanded="false" />
-            <element signature="method#onShow#0;class#MyPopUp#0" expanded="false" />
-            <element signature="method#Values#0;class#Values#0;class#MyPopUp#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2720,10 +2745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36021507">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2731,7 +2752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2739,7 +2759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="446" column="8" selection-start-line="446" selection-start-column="8" selection-end-line="446" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2779,7 +2798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63261646">
           <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2787,7 +2805,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2744#2745#0" expanded="false" />
+            <element signature="e#2778#2779#0" expanded="false" />
+            <element signature="e#3544#3545#0" expanded="false" />
+            <element signature="e#3597#3598#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2796,42 +2820,7 @@
         <state vertical-scroll-proportion="-0.94265234">
           <caret line="391" column="33" selection-start-line="391" selection-start-column="32" selection-end-line="391" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/MyGcmPushReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.390681">
-          <caret line="209" column="76" selection-start-line="209" selection-start-column="76" selection-end-line="209" selection-end-column="76" />
-          <folding>
-            <element signature="docComment;method#onMessageReceived#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#onMessageReceived#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#processUserAvatar#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#processNewUserPage#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="docComment;method#processChatRoomPush#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="e#7096#7154#0" expanded="false" />
-            <element signature="e#9291#9327#0" expanded="false" />
-            <element signature="e#9618#9652#0" expanded="false" />
-            <element signature="e#10486#10534#0" expanded="false" />
-            <element signature="e#10979#11045#0" expanded="false" />
-            <element signature="docComment;method#processUserMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#processUserMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="e#11592#11650#0" expanded="false" />
-            <element signature="e#14261#14297#0" expanded="false" />
-            <element signature="e#14588#14622#0" expanded="false" />
-            <element signature="e#15452#15528#0" expanded="false" />
-            <element signature="e#16016#16082#0" expanded="false" />
-            <element signature="method#processChatDelete#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#processUserLeftChat#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#processNewChat#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#processUserLeftPage#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#processPageDeleted#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="docComment;method#showNotificationMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#showNotificationMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="docComment;method#showNotificationMessageWithBigImage#0;class#MyGcmPushReceiver#0" expanded="false" />
-            <element signature="method#showNotificationMessageWithBigImage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2881,19 +2870,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/InfiniteScroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3753425">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;class#InfiniteScroll#0" expanded="false" />
+            <element signature="e#1115#1204#0" expanded="false" />
+            <element signature="e#1476#1555#0" expanded="false" />
+            <element signature="e#1810#1900#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/MyGcmPushReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39178082">
+          <caret line="209" column="76" selection-start-line="209" selection-start-column="76" selection-end-line="209" selection-end-column="76" />
+          <folding>
+            <element signature="docComment;method#onMessageReceived#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#onMessageReceived#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#processUserAvatar#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#processNewUserPage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="docComment;method#processChatRoomPush#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="e#7096#7154#0" expanded="false" />
+            <element signature="e#9291#9327#0" expanded="false" />
+            <element signature="e#9618#9652#0" expanded="false" />
+            <element signature="e#10486#10534#0" expanded="false" />
+            <element signature="e#10979#11045#0" expanded="false" />
+            <element signature="docComment;method#processUserMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#processUserMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="e#11592#11650#0" expanded="false" />
+            <element signature="e#14261#14297#0" expanded="false" />
+            <element signature="e#14588#14622#0" expanded="false" />
+            <element signature="e#15452#15528#0" expanded="false" />
+            <element signature="e#16016#16082#0" expanded="false" />
+            <element signature="method#processChatDelete#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#processUserLeftChat#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#processNewChat#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#processUserLeftPage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#processPageDeleted#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="docComment;method#showNotificationMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#showNotificationMessage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="docComment;method#showNotificationMessageWithBigImage#0;class#MyGcmPushReceiver#0" expanded="false" />
+            <element signature="method#showNotificationMessageWithBigImage#0;class#MyGcmPushReceiver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33150685">
+          <caret line="1390" column="20" selection-start-line="1390" selection-start-column="20" selection-end-line="1390" selection-end-column="20" />
+          <folding>
+            <element signature="e#50307#50308#0" expanded="false" />
+            <element signature="e#50357#50358#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/org/json/JSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33150685">
+          <caret line="460" column="18" selection-start-line="460" selection-start-column="18" selection-end-line="460" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46575344">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/content/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5424658">
+          <caret line="623" column="38" selection-start-line="623" selection-start-column="38" selection-end-line="623" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46575344">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="method#onCreate#0;class#MyApplication#0" expanded="false" />
+            <element signature="method#getRequestQueue#0;class#MyApplication#0" expanded="false" />
+            <element signature="method#getDbManager#0;class#MyApplication#0" expanded="false" />
+            <element signature="method#addToRequestQueue#0;class#MyApplication#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/GCM/NotificationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+          <caret line="145" column="198" selection-start-line="145" selection-start-column="198" selection-end-line="145" selection-end-column="198" />
           <folding>
             <element signature="docComment;class#NotificationUtils#0" expanded="false" />
             <element signature="method#NotificationUtils#0;class#NotificationUtils#0" expanded="false" />
             <element signature="method#showNotificationMessage#0;class#NotificationUtils#0" expanded="false" />
-            <element signature="method#showNotificationMessage#1;class#NotificationUtils#0" expanded="false" />
+            <element signature="method#showSmallNotification#0;class#NotificationUtils#0" expanded="false" />
             <element signature="method#showBigNotification#0;class#NotificationUtils#0" expanded="false" />
             <element signature="docComment;method#getBitmapFromURL#0;class#NotificationUtils#0" expanded="false" />
             <element signature="method#getBitmapFromURL#0;class#NotificationUtils#0" expanded="false" />
@@ -2908,63 +2992,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Helper/MyPreferenceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61095893">
-          <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.2849315">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#MyPreferenceManager#0" expanded="false" />
-            <element signature="e#1194#1209#0" expanded="false" />
+            <element signature="e#1302#1317#0" expanded="false" />
             <element signature="method#storeUser#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#storeGCM#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#getGCM#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#getUser#0;class#MyPreferenceManager#0" expanded="false" />
-            <element signature="e#2257#2273#0" expanded="false" />
+            <element signature="e#2365#2381#0" expanded="false" />
             <element signature="method#deleteUnreadCounter#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#storeUnReadCounter#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#getUnReadCounter#1;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#setMoreThanOneChat#0;class#MyPreferenceManager#0" expanded="false" />
-            <element signature="method#addNotification#0;class#MyPreferenceManager#0" expanded="false" />
-            <element signature="e#5054#5075#0" expanded="false" />
+            <element signature="method#clearNotifications#0;class#MyPreferenceManager#0" expanded="false" />
+            <element signature="e#5300#5321#0" expanded="false" />
             <element signature="method#storeSilentRoom#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#removeSilentRoom#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#checkSilentRoom#0;class#MyPreferenceManager#0" expanded="false" />
             <element signature="method#clear#0;class#MyPreferenceManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="method#onCreate#0;class#MyApplication#0" expanded="false" />
-            <element signature="method#getRequestQueue#0;class#MyApplication#0" expanded="false" />
-            <element signature="method#getPrefManager#0;class#MyApplication#0" expanded="false" />
-            <element signature="method#getDbManager#0;class#MyApplication#0" expanded="false" />
-            <element signature="method#addToRequestQueue#0;class#MyApplication#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/App/InfiniteScroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9315069">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding>
-            <element signature="docComment;class#InfiniteScroll#0" expanded="false" />
-            <element signature="method#InfiniteScroll#0;class#InfiniteScroll#0" expanded="false" />
-            <element signature="method#onScrolled#0;class#InfiniteScroll#0" expanded="false" />
-            <element signature="e#1115#1204#0" expanded="false" />
-            <element signature="e#1476#1555#0" expanded="false" />
-            <element signature="e#1810#1900#0" expanded="false" />
           </folding>
         </state>
       </provider>

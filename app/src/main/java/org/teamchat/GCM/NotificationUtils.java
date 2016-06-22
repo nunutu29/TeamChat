@@ -25,10 +25,13 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.teamchat.App.Config;
 import org.teamchat.App.MyApplication;
 import org.teamchat.R;
@@ -105,12 +108,14 @@ public class NotificationUtils {
             MyApplication.getInstance().getPrefManager().addNotification(message);
 
             // get the notifications from shared preferences
-            String oldNotification = MyApplication.getInstance().getPrefManager().getNotifications();
+            JSONArray messages = MyApplication.getInstance().getPrefManager().getNotifications();
 
-            List<String> messages = Arrays.asList(oldNotification.split("\\|"));
-
-            for (int i = messages.size() - 1; i >= 0; i--) {
-                inboxStyle.addLine(messages.get(i));
+            for (int i = messages.length() - 1; i >= 0; i--) {
+                try {
+                    inboxStyle.addLine(messages.getString(i));
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
         }else{
             inboxStyle.addLine(message);

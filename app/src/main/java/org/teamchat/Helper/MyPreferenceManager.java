@@ -4,9 +4,13 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.teamchat.Model.User;
 
+import java.util.ArrayList;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by Johnny
@@ -138,20 +142,24 @@ public class MyPreferenceManager {
     public void addNotification(String notification) {
 
         // get old notifications
-        String oldNotifications = getNotifications();
+        JSONArray oldNotifications = getNotifications();
 
-        if (oldNotifications != null) {
-            oldNotifications += "|" + notification;
-        } else {
-            oldNotifications = notification;
-        }
-
-        editor.putString(KEY_NOTIFICATIONS, oldNotifications);
+        oldNotifications.put(notification);
+        editor.putString(KEY_NOTIFICATIONS, oldNotifications.toString());
         editor.commit();
     }
 
-    public String getNotifications() {
-        return pref.getString(KEY_NOTIFICATIONS, null);
+    public JSONArray getNotifications() {
+        String json = pref.getString(KEY_NOTIFICATIONS, null);
+        if (json != null) {
+            try
+            {
+                return new JSONArray(json);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+        return new JSONArray();
     }
 
     public void clearNotifications(){
