@@ -1,3 +1,257 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_e17b119e145fbe8618707d85456f93a433a66fe1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d949ad4f8d9cae3136ccc57420dd51a99930c2ab">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_118bee8f749e4eb23f97bf7488bf801e393193b7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-8.4.0_c768223cfebaff08575dd6a1488833643e8ba614\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_88be7c3422005e029013e791490ea00000e9396f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_2cc96388f665279062bb5d01459f07ecd9a2e260\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_9f1717d55a5a1fd1209ea99b0d6094a6a2383328\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-8.4.0_1ebe039cce3c388d03f6822aa2d8bc856586433a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-8.4.0_03f74477346d2e30e7cd4c9de8e5bb7a7ab7fb08\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-8.4.0_108d6605c5fa6034369eafd1ba36db2e3cb55328\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.4.0_7f859b77f91071adcd579c779caef8d6aa412d49\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_67ed812d61ca4f83488a5a8f71e6453ffedb7bcc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_e274551144399c6bbf6e680e0c46c3e7384bf5bf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-8.4.0_dc5b7ba7e59cf598ac32c2004097fc845bfdb65a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_2eecf4feaeb19a19b832d3b4f569850d6a579a66\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_ec470f7a452086f8322f8b500d193f13dbdb2516\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_65750baa7df21f4d0e6b3b9400823e847d0829a0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-8.4.0_c623325f944dff3affda8f9b968ee3b2bb8aac41\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_a3bbffac91797e349416b290fae4f8919a429803\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.4.0_2097462c07cf8a70a02bd47ecc42e8b5c5b32707\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_57699784db1c98a7680693e333100a93e4a46746\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-8.4.0_90388691c2469147ad2da2a21a14ad2e92de05f2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.4.0_11365f65f8cbd8eeaca0a7c9af423d9f7e698db6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.4.0_ca50754c632f0cbfd18a1f8ab9964770eff360cb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-8.4.0_d2981a82b58f3094d54468f21b7f30a9cf9c28e9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_2b7099d41011ec0143d2ae4779025f223e42ded7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_e7575834e98b3f811ad7f4d47e647774f19f7ca3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_949dda6eee977e25a82c5edf8ddae8afd95c1b3b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_cc484e2add3fef6c04e9d2ca691abafc50def9da\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.4.0_8b20e38122efa15eaabc54c8089b6e04176a0931\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-8.4.0_7aea967748d2a27a1890afeaf547cca469bdc91e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.4.0_1b60a323450bb23a522c766936dc26b34cb151cc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="28de8d9b37c0979ffb84326f388305ab355a21bc">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_60277cbe6f2eb6a510d1bad29b8781bff76e1fb8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_87e4e2217acf9dac0bbd98271449c82961772bdf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-8.4.0_11aabf933a6e957fde3bf988ea392d201e9cea65\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_d77d9650ed3dae04f5a1826cff5af34758ac83c0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Roman\AndroidStudioProjects\TeamChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_f8994201deb328257e994705debf9550830d08ff\classes.dex" />
+    </item>
+
+</items>

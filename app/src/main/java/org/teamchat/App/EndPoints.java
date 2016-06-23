@@ -1,8 +1,8 @@
 package org.teamchat.App;
 
 public class EndPoints {
-   // public static final String BASE_URL = "http://78.12.68.241/TeamChat/v1";
-    public static final String BASE_URL = "http://192.168.1.100/TeamChat/v1";
+    public static final String BASE_URL = "http://78.12.68.241/TeamChat/v1";
+    //public static final String BASE_URL = "http://192.168.1.100/TeamChat/v1";
 
     //Variabili Utili
     public static final String IDPAGINA = "_IDP_";
