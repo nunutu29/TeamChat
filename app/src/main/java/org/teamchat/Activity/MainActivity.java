@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
 
     //Current Fragment
+    // ROMAN TEST
     public int CURRENT_FRAGMENT;
     //Used Fragments
     private GroupListFragment groupListFragment;
