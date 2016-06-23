@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity
          * 1. Quando la registrazione del GCM è completa
          * 2. Quando un nuovo Push è arrivato
          * */
+
         mRegistrationBroadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -215,6 +216,8 @@ public class MainActivity extends AppCompatActivity
         switch (type){
             case Config.PUSH_FLAG_PAGE_DELETE:
                 switch (CURRENT_FRAGMENT){
+                    //NOTA BENE
+                    //eseguire questo codice se si è in questo frammento, indipendentemente dal idPage
                     case Config.GROUPS_LIST_FRAGMENT:
                         if(groupListFragment != null)
                             groupListFragment.LoadLocal();
