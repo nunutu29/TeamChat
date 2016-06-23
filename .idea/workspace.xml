@@ -10,18 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24965af5-e3b6-43b3-91cb-1e8c1cfee87c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/teamchat/Activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/teamchat/Activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/teamchat/App/EndPoints.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="TeamChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,12 +72,12 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.390681">
-              <caret line="231" column="35" selection-start-line="231" selection-start-column="35" selection-end-line="231" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.5788531">
+              <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
               <folding>
                 <element signature="docComment;class#MainActivity#0" expanded="false" />
-                <element signature="e#4191#4221#0" expanded="false" />
-                <element signature="e#5687#5724#0" expanded="false" />
+                <element signature="e#4214#4244#0" expanded="false" />
+                <element signature="e#5710#5747#0" expanded="false" />
                 <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#handleSyncComplete#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#handleMessage#0;class#MainActivity#0" expanded="false" />
@@ -2360,28 +2350,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamChat" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teamchat" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2711,7 +2679,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466612639369</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="asda">
+      <created>1466715952650</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1466715952650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2794,7 +2768,8 @@
     <MESSAGE value="Android Studio Test" />
     <MESSAGE value="Modifiche Varie" />
     <MESSAGE value="Modificata la gestione delle notifiche. Ora vengono salvate come JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificata la gestione delle notifiche. Ora vengono salvate come JSON" />
+    <MESSAGE value="asda" />
+    <option name="LAST_COMMIT_MESSAGE" value="asda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2868,8 +2843,8 @@
           <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#4191#4221#0" expanded="false" />
-            <element signature="e#5687#5724#0" expanded="false" />
+            <element signature="e#4214#4244#0" expanded="false" />
+            <element signature="e#5710#5747#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#handleSyncComplete#0;class#MainActivity#0" expanded="false" />
             <element signature="method#handleMessage#0;class#MainActivity#0" expanded="false" />
@@ -3459,12 +3434,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/teamchat/Activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.390681">
-          <caret line="231" column="35" selection-start-line="231" selection-start-column="35" selection-end-line="231" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.5788531">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
           <folding>
             <element signature="docComment;class#MainActivity#0" expanded="false" />
-            <element signature="e#4191#4221#0" expanded="false" />
-            <element signature="e#5687#5724#0" expanded="false" />
+            <element signature="e#4214#4244#0" expanded="false" />
+            <element signature="e#5710#5747#0" expanded="false" />
             <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
             <element signature="method#handleSyncComplete#0;class#MainActivity#0" expanded="false" />
             <element signature="method#handleMessage#0;class#MainActivity#0" expanded="false" />

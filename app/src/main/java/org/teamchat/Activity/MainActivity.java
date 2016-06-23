@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //comment test
         super.onCreate(savedInstanceState);
         if(savedInstanceState != null)
             RestoreInstanceState(savedInstanceState);
