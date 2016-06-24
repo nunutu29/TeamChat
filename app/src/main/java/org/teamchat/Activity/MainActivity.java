@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity
 
     //Current Fragment
     // ROMAN TEST
+    //git rm -f .idea/workspace.xml
     public int CURRENT_FRAGMENT;
     //Used Fragments
     private GroupListFragment groupListFragment;
