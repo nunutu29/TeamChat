@@ -27,6 +27,7 @@
     <string name="txtWriteAMessage">Scrivere un messaggio</string>
     <string name="btnSend">Invia</string>
     <string name="hint_no_internet">Internet Assente</string>
+    <string name="avatar">Avatar</string>
     <!-- Drawer -->
     <string name="users_list">Membri</string>
     <string name="new_chat_room">Nuova Chat</string>

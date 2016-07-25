@@ -230,7 +230,7 @@ public class DbIntentService extends IntentService {
                             }
                             finally {
                                 REQUESTS--;
-                                Toast.makeText(getApplicationContext(), "Sync Done", Toast.LENGTH_SHORT).show();
+                                //Toast.makeText(getApplicationContext(), "Sync Done", Toast.LENGTH_SHORT).show();
                                 onComplete(Config.SYNC_COMPLETE);
                             }
                         }

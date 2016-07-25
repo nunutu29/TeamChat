@@ -2,8 +2,12 @@ package org.teamchat.Fragments;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.media.Image;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,6 +16,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.teamchat.Activity.MainActivity;
@@ -25,12 +31,11 @@ import org.teamchat.Model.Pages;
 
 import java.util.ArrayList;
 
-public class GroupListFragment extends Fragment {
+public class GroupListFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
     //private static final String TAG = GroupListFragment.class.getSimpleName();
-
+    public SwipeRefreshLayout swipeRefreshLayout;
     private PagesAdapter mAdapter;
     private ArrayList<Pages> pagesArrayList;
-
 
     private OnFragmentInteractionListener mListener;
 
@@ -59,6 +64,25 @@ public class GroupListFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_group_list, container, false);
         Toolbar toolbar = (Toolbar) rootView.findViewById(R.id.toolbar);
+        toolbar.setTitle(MyApplication.getInstance().getPrefManager().getUser().getName());
+
+        TextView subTitle = (TextView)rootView.findViewById(R.id.subtitle);
+        subTitle.setText(MyApplication.getInstance().getPrefManager().getUser().getEmail());
+
+        ImageView imageView = (ImageView)rootView.findViewById(R.id.imageView);
+        MyApplication.getInstance().getPrefManager().getUser().setAvatar(getContext(), imageView, false);
+
+        FloatingActionButton addButton = (FloatingActionButton) rootView.findViewById(R.id.fab_add);
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.OpenCreateGroup();
+            }
+        });
+
+        swipeRefreshLayout = (SwipeRefreshLayout)rootView.findViewById(R.id.swipeRefreshLayout);
+        swipeRefreshLayout.setOnRefreshListener(this);
+
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         pagesArrayList = new ArrayList<>();
         mAdapter = new PagesAdapter(pagesArrayList);
@@ -86,7 +110,6 @@ public class GroupListFragment extends Fragment {
                 //Toast.makeText(getContext(), "Long Touch", Toast.LENGTH_SHORT).show();
             }
         }));
-
         return rootView;
     }
 
@@ -131,13 +154,15 @@ public class GroupListFragment extends Fragment {
 
     }
 
-    /*public void AddGroupToList(String id, String title, String descr){
-        Pages page = new Pages(id, title, descr, 0);
-        pagesArrayList.add(page);
-        mAdapter.notifyItemInserted(pagesArrayList.size());
-    }*/
+    @Override
+    public void onRefresh() {
+        swipeRefreshLayout.setRefreshing(true);
+        mListener.StartSync();
+    }
 
     public interface OnFragmentInteractionListener {
         void OpenChatList(String idPage);
+        void OpenCreateGroup();
+        void StartSync();
     }
 }

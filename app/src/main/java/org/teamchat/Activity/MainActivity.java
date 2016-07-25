@@ -178,8 +178,10 @@ public class MainActivity extends AppCompatActivity
         String action = intent.getStringExtra("action");
         switch (action){
             case DbIntentService.SYNC:
-                if(CURRENT_FRAGMENT == Config.GROUPS_LIST_FRAGMENT && groupListFragment != null)
+                if(CURRENT_FRAGMENT == Config.GROUPS_LIST_FRAGMENT && groupListFragment != null) {
                     groupListFragment.LoadLocal();
+                    groupListFragment.swipeRefreshLayout.setRefreshing(false);
+                }
                 break;
             case DbIntentService.LEAVE_CHATROOM:
             case DbIntentService.DELETE_CHATROOM:
@@ -360,9 +362,6 @@ public class MainActivity extends AppCompatActivity
         MenuInflater inflater = getMenuInflater();
 
         switch (CURRENT_FRAGMENT){
-            case Config.GROUPS_LIST_FRAGMENT:
-                inflater.inflate(R.menu.menu_main, menu);
-                break;
             case Config.CHAT_ROOM_FRAGMENT:
                 inflater.inflate(R.menu.menu_chatroom, menu);
                 break;
@@ -377,12 +376,6 @@ public class MainActivity extends AppCompatActivity
                 //Trigger back Button
                 this.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_BACK));
                 this.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_UP, KeyEvent.KEYCODE_BACK));
-                return true;
-            case R.id.action_create:
-                OpenCreateGroup();
-                return true;
-            case R.id.action_sync:
-                StartSync();
                 return true;
             case R.id.action_users:
                 OpenUsers(idPage, idChat, UsersListFragment.LOOK_MODE);
