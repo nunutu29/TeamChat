@@ -13,14 +13,11 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.google.android.gms.gcm.GcmPubSub;
-import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.google.android.gms.iid.InstanceID;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,11 +25,8 @@ import org.teamchat.App.Config;
 import org.teamchat.App.EndPoints;
 import org.teamchat.App.MyApplication;
 import org.teamchat.Model.User;
-import org.teamchat.R;
 
 public class GcmIntentService extends IntentService {
-
-
 
     private static final String TAG = GcmIntentService.class.getSimpleName();
 
@@ -44,7 +38,7 @@ public class GcmIntentService extends IntentService {
     public static final String TOPIC = "topic";
     public static final String SUBSCRIBE = "subscribe";
     public static final String UNSUBSCRIBE = "unsubscribe";
-
+    public static final String TOKEN = "token";
 
     @Override
     protected void onHandleIntent(Intent intent) {
@@ -52,14 +46,16 @@ public class GcmIntentService extends IntentService {
         switch (key) {
             case SUBSCRIBE:
                 // subscribe to a topic
-                String topic = intent.getStringExtra(TOPIC);
-                subscribeToTopic(topic);
+                String subTopic = intent.getStringExtra(TOPIC);
+                FirebaseMessaging.getInstance().subscribeToTopic(subTopic);
                 break;
             case UNSUBSCRIBE:
+                String unsubTopic = intent.getStringExtra(TOPIC);
+                FirebaseMessaging.getInstance().unsubscribeFromTopic(unsubTopic);
                 break;
             default:
                 // if key is specified, register with GCM
-                registerGCM();
+                registerGCM(intent.getStringExtra(TOKEN));
         }
 
     }
@@ -67,28 +63,22 @@ public class GcmIntentService extends IntentService {
     /**
      * Registering with GCM and obtaining the gcm registration id
      */
-    private void registerGCM() {
+    private void registerGCM(String token) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-
         try {
-            InstanceID instanceID = InstanceID.getInstance(this);
-            String token = instanceID.getToken(getString(R.string.gcm_defaultSenderId),
-                    GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
-
             Log.e(TAG, "GCM Registration Token: " + token);
-            if(!MyApplication.getInstance().getPrefManager().getGCM().equals(token)) {
-                //sending the registration id to our server
-                sendRegistrationToServer(token);
-                sharedPreferences.edit().putBoolean(Config.SENT_TOKEN_TO_SERVER, true).apply();
+            if(MyApplication.getInstance().getPrefManager().getUser() != null) {
+                if (!MyApplication.getInstance().getPrefManager().getGCM().equals(token)) {
+                    //sending the registration id to our server
+                    sendRegistrationToServer(token);
+                    sharedPreferences.edit().putBoolean(Config.SENT_TOKEN_TO_SERVER, true).apply();
+                } else {
+                    sharedPreferences.edit().putBoolean(Config.SENT_TOKEN_TO_SERVER, false).apply();
+                    Log.e(TAG, "GCM non cambiato");
+                }
             }
-            else {
-                sharedPreferences.edit().putBoolean(Config.SENT_TOKEN_TO_SERVER, false).apply();
-                Log.e(TAG, "GCM non cambiato");
-            }
-
         } catch (Exception e) {
             Log.e(TAG, "Failed to complete token refresh", e);
-
             sharedPreferences.edit().putBoolean(Config.SENT_TOKEN_TO_SERVER, false).apply();
         }
         // Notify UI that registration has completed, so the progress indicator can be hidden.
@@ -157,46 +147,4 @@ public class GcmIntentService extends IntentService {
         //Adding request to request queue
         MyApplication.getInstance().addToRequestQueue(strReq);
     }
-
-    /**
-     * Subscribe to a topic
-     */
-    public static void subscribeToTopic(String topic) {
-        GcmPubSub pubSub = GcmPubSub.getInstance(MyApplication.getInstance().getApplicationContext());
-        InstanceID instanceID = InstanceID.getInstance(MyApplication.getInstance().getApplicationContext());
-        String token;
-        try {
-            token = instanceID.getToken(MyApplication.getInstance().getApplicationContext().getString(R.string.gcm_defaultSenderId),
-                    GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
-            if (token != null) {
-                pubSub.subscribe(token, "/topics/" + topic, null);
-                Log.e(TAG, "Subscribed to topic: " + topic);
-            } else {
-                Log.e(TAG, "error: gcm registration id is null");
-            }
-        } catch (IOException e) {
-            Log.e(TAG, "Topic subscribe error. Topic: " + topic + ", error: " + e.getMessage());
-            Toast.makeText(MyApplication.getInstance().getApplicationContext(), "Topic subscribe error. Topic: " + topic + ", error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-        }
-    }
-    /*
-    public void unsubscribeFromTopic(String topic) {
-        GcmPubSub pubSub = GcmPubSub.getInstance(getApplicationContext());
-        InstanceID instanceID = InstanceID.getInstance(getApplicationContext());
-        String token;
-        try {
-            token = instanceID.getToken(getString(R.string.gcm_defaultSenderId),
-                    GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
-            if (token != null) {
-                pubSub.unsubscribe(token, "/topics/" + topic);
-                Log.e(TAG, "Unsubscribed from topic: " + topic);
-            } else {
-                Log.e(TAG, "error: gcm registration id is null");
-            }
-        } catch (IOException e) {
-            Log.e(TAG, "Topic unsubscribe error. Topic: " + topic + ", error: " + e.getMessage());
-            Toast.makeText(getApplicationContext(), "Topic subscribe error. Topic: " + topic + ", error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-        }
-    }
-    */
 }

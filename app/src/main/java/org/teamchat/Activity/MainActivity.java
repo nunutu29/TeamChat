@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import org.teamchat.Fragments.ChatListFragment;
 import org.teamchat.Fragments.ChatRoomFragment;
@@ -120,7 +121,9 @@ public class MainActivity extends AppCompatActivity
                     // now subscribe to `global` topic to receive app wide notifications
                     //this method is only inside GroupListFragment
                     if(CURRENT_FRAGMENT == Config.GROUPS_LIST_FRAGMENT)
-                        groupListFragment.subscribeToAllTopics();
+                    {
+                        //groupListFragment.subscribeToAllTopics();
+                    }
 
                 } else if (intent.getAction().equals(Config.SENT_TOKEN_TO_SERVER)) {
                     // gcm registration id is stored in our server's MySQL
@@ -327,6 +330,7 @@ public class MainActivity extends AppCompatActivity
     // starting the service to register with GCM
     private void registerGCM() {
         Intent intent = new Intent(this, GcmIntentService.class);
+        intent.putExtra(GcmIntentService.TOKEN, FirebaseInstanceId.getInstance().getToken());
         intent.putExtra("key", "register");
         startService(intent);
     }

@@ -23,7 +23,8 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.google.android.gms.gcm.GcmListenerService;
+import com.google.firebase.messaging.FirebaseMessagingService;
+import com.google.firebase.messaging.RemoteMessage;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -40,32 +41,23 @@ import org.teamchat.Model.User;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
 
-public class MyGcmPushReceiver extends GcmListenerService {
+public class MyGcmPushReceiver extends FirebaseMessagingService {
 
     private static final String TAG = MyGcmPushReceiver.class.getSimpleName();
 
     private NotificationUtils notificationUtils;
 
-    /**
-     * Called when message is received.
-     *
-     * @param from   SenderID of the sender.
-     * @param bundle Data bundle containing message data as key/value pairs.
-     *               For Set of keys use data.keySet().
-     */
-
     @Override
-    public void onMessageReceived(String from, Bundle bundle) {
-        String title = bundle.getString("title");
-        Boolean isBackground = Boolean.valueOf(bundle.getString("is_background"));
-        String flag = bundle.getString("flag");
-        String data = bundle.getString("data");
-        Log.d(TAG, "From: " + from);
-        Log.d(TAG, "title: " + title);
-        Log.d(TAG, "isBackground: " + isBackground);
-        Log.d(TAG, "flag: " + flag);
-        Log.d(TAG, "data: " + data);
+    public void onMessageReceived(RemoteMessage message) {
+        //String from = message.getFrom();
+        Map bundle = message.getData();
+
+        String title = bundle.get("title").toString();
+        Boolean isBackground = Boolean.valueOf(bundle.get("is_background").toString());
+        String flag = bundle.get("flag").toString();
+        String data = bundle.get("data").toString();
 
         if (flag == null)
             return;

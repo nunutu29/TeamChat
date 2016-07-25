@@ -19,9 +19,10 @@ package org.teamchat.GCM;
 import android.content.Intent;
 import android.util.Log;
 
-import com.google.android.gms.iid.InstanceIDListenerService;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.iid.FirebaseInstanceIdService;
 
-public class MyInstanceIDListenerService extends InstanceIDListenerService {
+public class MyInstanceIDListenerService extends FirebaseInstanceIdService {
 
     private static final String TAG = MyInstanceIDListenerService.class.getSimpleName();
 
@@ -33,8 +34,10 @@ public class MyInstanceIDListenerService extends InstanceIDListenerService {
     @Override
     public void onTokenRefresh() {
         Log.e(TAG, "onTokenRefresh");
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         // Fetch updated Instance ID token and notify our app's server of any changes (if applicable).
         Intent intent = new Intent(this, GcmIntentService.class);
+        intent.putExtra(GcmIntentService.TOKEN, refreshedToken);
         startService(intent);
     }
 }

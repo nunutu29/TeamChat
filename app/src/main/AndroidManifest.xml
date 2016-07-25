@@ -6,15 +6,7 @@
     <!--serve per dispotivi piu vecchi per eseguire processi in background-->
     <uses-permission android:name="android.permission.GET_TASKS" />
 
-    <!-- START Added for GCM -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <permission
-        android:name=".GCM.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
-
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name=".GCM.permission.C2D_MESSAGE" />
 
     <!-- END Added for GCM -->
     <application
@@ -41,30 +33,15 @@
             </intent-filter>
         </activity>
 
-        <!-- START Added for GCM -->
-        <receiver
-            android:name="com.google.android.gms.gcm.GcmReceiver"
-            android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND">
+        <service android:name=".GCM.MyGcmPushReceiver">
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="teamchat.org" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name=".GCM.MyGcmPushReceiver"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <service
-            android:name=".GCM.GcmIntentService"
-            android:exported="false">
+        <service android:name=".GCM.MyInstanceIDListenerService">
             <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <!-- END Added for GCM -->
