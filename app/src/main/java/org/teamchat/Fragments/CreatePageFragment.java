@@ -55,8 +55,9 @@ public class CreatePageFragment extends Fragment {
 
         //Setting the toolbar
         Toolbar toolbar = (Toolbar) rootView.findViewById(R.id.toolbar);
-        toolbar.setTitle(getResources().getString(R.string.action_create));
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+        toolbar.setTitle(getResources().getString(R.string.gl_create));
+
 
         Button btnCreate = (Button) rootView.findViewById(R.id.btn_create);
         btnCreate.setOnClickListener(new View.OnClickListener() {

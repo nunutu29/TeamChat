@@ -16,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,6 +29,7 @@ import org.teamchat.GCM.GcmIntentService;
 import org.teamchat.R;
 import org.teamchat.Helper.SimpleDividerItemDecoration;
 import org.teamchat.Model.Pages;
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -63,27 +65,15 @@ public class GroupListFragment extends Fragment implements SwipeRefreshLayout.On
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_group_list, container, false);
-        Toolbar toolbar = (Toolbar) rootView.findViewById(R.id.toolbar);
-        toolbar.setTitle(MyApplication.getInstance().getPrefManager().getUser().getName());
+        //Toolbar toolbar = (Toolbar) rootView.findViewById(R.id.toolbar);
+        //((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+        //toolbar.setTitle(MyApplication.getInstance().getPrefManager().getUser().getName());
 
-        TextView subTitle = (TextView)rootView.findViewById(R.id.subtitle);
-        subTitle.setText(MyApplication.getInstance().getPrefManager().getUser().getEmail());
-
-        ImageView imageView = (ImageView)rootView.findViewById(R.id.imageView);
-        MyApplication.getInstance().getPrefManager().getUser().setAvatar(getContext(), imageView, false);
-
-        FloatingActionButton addButton = (FloatingActionButton) rootView.findViewById(R.id.fab_add);
-        addButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mListener.OpenCreateGroup();
-            }
-        });
+        setHeader(rootView);
 
         swipeRefreshLayout = (SwipeRefreshLayout)rootView.findViewById(R.id.swipeRefreshLayout);
         swipeRefreshLayout.setOnRefreshListener(this);
 
-        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         pagesArrayList = new ArrayList<>();
         mAdapter = new PagesAdapter(pagesArrayList);
         RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_view);
@@ -127,6 +117,44 @@ public class GroupListFragment extends Fragment implements SwipeRefreshLayout.On
     }
 
     /*Other Methos*/
+    public void setHeader(View rootView){
+
+        ImageView imageView = (ImageView)rootView.findViewById(R.id.imageView);
+        MyApplication.getInstance().getPrefManager().getUser().setAvatar(getContext(), imageView, false);
+
+        TextView Title = (TextView)rootView.findViewById(R.id.title);
+        Title.setText(MyApplication.getInstance().getPrefManager().getUser().getName());
+
+        TextView subTitle = (TextView)rootView.findViewById(R.id.subtitle);
+        subTitle.setText(MyApplication.getInstance().getPrefManager().getUser().getEmail());
+
+        Button settings = (Button)rootView.findViewById(R.id.btn_settings);
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //TODO open settings
+            }
+        });
+
+
+        Button create = (Button)rootView.findViewById(R.id.btn_create);
+        create.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.OpenCreateGroup();
+            }
+        });
+
+        Button friends = (Button)rootView.findViewById(R.id.btn_friends);
+        friends.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //TODO friends list
+            }
+        });
+
+    }
+
     public void LoadLocal(){
         pagesArrayList.clear();
         pagesArrayList.addAll(MyApplication.getInstance().getDbManager().getPagesList());

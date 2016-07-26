@@ -13,8 +13,6 @@
     <string name="err_msg_email">Inserire una mail valida</string>
     <string name="title_activity_chat_room_discussion">Chat Room</string>
     <string name="action_logout">Logout</string>
-    <string name="action_create">Crea Pagina</string>
-    <string name="action_sync">Sincronizza</string>
     <string name="title_activity_chat_list">Chat List</string>
     <string name="alert_logout">Premi OK per uscire</string>
     <string name="txtTitlo">Titolo</string>
@@ -36,7 +34,7 @@
     <string name="drawer_leave_group">Abbandona</string>
     <string name="drawer_delete_group">Elimina</string>
     <string name="drawer_group_credentials">Credenziali del gruppo</string>
-    <string name="action_settings">Impostazioni</string>
+
     <string name="action_pages">Lista Pagine</string>
 
     <string name="openDrawer">Apri</string>
@@ -51,4 +49,10 @@
     <string name="popup_admin_delete_chat">Elimina</string>
     <string name="popup_silent_chat">Silenzia</string>
     <string name="popup_loud_chat">Suona</string>
+
+    <!-- Group List -->
+    <string name="gl_sync">Syncronizza</string>
+    <string name="gl_create">Crea Pagina</string>
+    <string name="gl_settings">Impostazioni</string>
+    <string name="gl_friends">Amici</string>
 </resources>
