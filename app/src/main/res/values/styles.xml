@@ -7,6 +7,9 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -29,6 +32,13 @@
     <style name="AnimationPopUp" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/show_pop_up</item>
         <item name="android:windowExitAnimation">@anim/hide_pop_up</item>
+    </style>
+
+    <style name="ShadowTextView">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">7</item>
     </style>
 
 </resources>

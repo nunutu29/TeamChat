@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -135,7 +136,6 @@ public class GroupListFragment extends Fragment implements SwipeRefreshLayout.On
                 //TODO open settings
             }
         });
-
 
         Button create = (Button)rootView.findViewById(R.id.btn_create);
         create.setOnClickListener(new View.OnClickListener() {

@@ -40,6 +40,8 @@ import org.teamchat.GCM.NotificationUtils;
 import org.teamchat.Helper.DbIntentService;
 import org.teamchat.Model.Message;
 
+import javax.crypto.spec.GCMParameterSpec;
+
 /**
  * Commit Test
  * Attenzione pulire idpage che non serve da per tutto
@@ -333,7 +335,7 @@ public class MainActivity extends AppCompatActivity
     private void registerGCM() {
         Intent intent = new Intent(this, GcmIntentService.class);
         intent.putExtra(GcmIntentService.TOKEN, FirebaseInstanceId.getInstance().getToken());
-        intent.putExtra("key", "register");
+        intent.putExtra(GcmIntentService.KEY, "register");
         startService(intent);
     }
 

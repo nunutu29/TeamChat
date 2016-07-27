@@ -41,7 +41,7 @@ public class GcmIntentService extends IntentService {
     public static final String TOKEN = "token";
 
     @Override
-    protected void onHandleIntent(Intent intent) {
+     protected void onHandleIntent(Intent intent) {
         String key = intent.getStringExtra(KEY);
         switch (key) {
             case SUBSCRIBE:

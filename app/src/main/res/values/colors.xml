@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--
     <color name="colorPrimary">#3f9381</color>
     <color name="colorPrimaryDark">#2f7c6c</color>
     <color name="colorAccent">#6cb1a3</color>
     <color name="colorBackground">#eaeaea</color>
     <color name="list_divider">#dedede</color>
+    -->
+    <color name="colorPrimary">#0a304c</color>
+    <color name="colorPrimaryDark">#08253c</color>
+    <color name="colorPrimaryDarkTransparent">#c108253c</color>
+    <color name="colorPrimaryLight">#142e43</color>
+    <color name="colorDarkTransparent">#c3383838</color>
+    <color name="colorAccent">#1bc4da</color>
+    <color name="colorBackground">#efebe9</color>
+    <color name="colorPrimaryText">#444444</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#e0e0e0</color>
+
+
     <color name="bg_bubble_self">#80cbc4</color>
     <color name="hint_color">#0e604f</color>
     <color name="red">#c90209</color>

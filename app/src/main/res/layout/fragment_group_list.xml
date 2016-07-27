@@ -22,11 +22,21 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+            app:layout_scrollFlags="scroll|snap|enterAlwaysCollapsed">
 
             <ImageView
                 android:contentDescription="@string/avatar"
                 android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
+
+            <ImageView
+                android:contentDescription="@string/avatar"
+                android:background="@color/colorDarkTransparent"
+                android:id="@+id/imageViewBg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
@@ -66,9 +76,6 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:divider="@drawable/buttons_divider_grey"
-                    android:showDividers="middle"
-                    android:dividerPadding="2dp"
                     android:id="@+id/headerButtons"
                     android:layout_below="@id/headerText"
                     android:background="@drawable/bg_linear_layout_dark"
@@ -77,6 +84,7 @@
                     android:layout_height="60dp">
 
                     <Button
+                        android:textColor="@color/white"
                         android:layout_gravity="center"
                         android:drawableTop="@drawable/ic_setting_dark"
                         android:textAllCaps="false"
@@ -88,6 +96,7 @@
                         android:layout_height="wrap_content" />
 
                     <Button
+                        android:textColor="@color/white"
                         android:layout_gravity="center"
                         android:drawableTop="@drawable/ic_add_24dp"
                         android:textAllCaps="false"
@@ -99,6 +108,7 @@
                         android:layout_height="wrap_content" />
 
                     <Button
+                        android:textColor="@color/white"
                         android:layout_gravity="center"
                         android:drawableTop="@drawable/ic_friends_24dp"
                         android:textAllCaps="false"

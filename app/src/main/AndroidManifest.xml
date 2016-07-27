@@ -44,7 +44,11 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <!-- END Added for GCM -->
+
+        <service
+            android:name=".GCM.GcmIntentService"
+            android:exported="false" />
+
         <service
             android:name=".Helper.DbIntentService"
             android:exported="false" />
