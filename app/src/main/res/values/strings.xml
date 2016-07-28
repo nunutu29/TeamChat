@@ -55,4 +55,11 @@
     <string name="gl_create">Crea Pagina</string>
     <string name="gl_settings">Impostazioni</string>
     <string name="gl_friends">Amici</string>
+
+    <!-- Create Page -->
+    <string name="cpNew">Crea una pagina nuova</string>
+    <string name="cpAdd">Aggiungi una pagina già esistente</string>
+    <string name="cpBtnAdd">Aggiungi</string>
+    <string name="cpBtnCreate">Crea</string>
+
 </resources>

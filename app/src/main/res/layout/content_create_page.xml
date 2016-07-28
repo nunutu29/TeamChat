@@ -31,7 +31,7 @@
                 <TextView
                     android:gravity="center_horizontal"
                     android:textSize="@dimen/abc_text_size_subhead_material"
-                    android:text="Crea una pagina nuova"
+                    android:text="@string/cpNew"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -83,17 +83,17 @@
                 </android.support.design.widget.TextInputLayout>
 
                 <Button
+                    android:textColor="@color/colorAccentText"
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:shadowRadius="0"
                     android:padding="20dp"
                     android:id="@+id/btn_create"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Crea" />
+                    android:text="@string/cpBtnCreate" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_below="@id/CreatePageFields"
                 android:id="@+id/AddPageFields"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
@@ -106,7 +106,7 @@
                 <TextView
                     android:gravity="center_horizontal"
                     android:textSize="@dimen/abc_text_size_subhead_material"
-                    android:text="Oppure aggiungi una già esistente."
+                    android:text="@string/cpAdd"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -144,13 +144,14 @@
                 </android.support.design.widget.TextInputLayout>
 
                 <Button
+                    android:textColor="@color/colorAccentText"
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:shadowRadius="0"
                     android:padding="20dp"
                     android:id="@+id/btn_Add"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aggiungi" />
+                    android:text="@string/cpBtnAdd" />
             </LinearLayout>
 
         </LinearLayout>

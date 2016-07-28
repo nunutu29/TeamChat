@@ -84,7 +84,7 @@
                     android:layout_height="60dp">
 
                     <Button
-                        android:textColor="@color/white"
+                        android:textColor="@color/colorAccentText"
                         android:layout_gravity="center"
                         android:drawableTop="@drawable/ic_setting_dark"
                         android:textAllCaps="false"
@@ -96,7 +96,7 @@
                         android:layout_height="wrap_content" />
 
                     <Button
-                        android:textColor="@color/white"
+                        android:textColor="@color/colorAccentText"
                         android:layout_gravity="center"
                         android:drawableTop="@drawable/ic_add_24dp"
                         android:textAllCaps="false"
@@ -108,7 +108,7 @@
                         android:layout_height="wrap_content" />
 
                     <Button
-                        android:textColor="@color/white"
+                        android:textColor="@color/colorAccentText"
                         android:layout_gravity="center"
                         android:drawableTop="@drawable/ic_friends_24dp"
                         android:textAllCaps="false"
